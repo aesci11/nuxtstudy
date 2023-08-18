@@ -1,74 +1,8 @@
 export const useUserStore = defineStore('user', {
   state: () => ({
     me: null,
-    followerList: [
-      {
-        id: 1,
-        userName: '카리나'
-      },
-      {
-        id: 2,
-        userName: '윈터'
-      },
-      {
-        id: 3,
-        userName: '지젤'
-      },
-      {
-        id: 4,
-        userName: '닝닝'
-      },
-      {
-        id: 5,
-        userName: '이미순'
-      },
-      {
-        id: 6,
-        userName: '이현정'
-      },
-      {
-        id: 7,
-        userName: '이혜란'
-      },
-      {
-        id: 8,
-        userName: '허지연'
-      }
-    ],
-    followingList: [
-      {
-        id: 1,
-        userName: '카리나'
-      },
-      {
-        id: 2,
-        userName: '윈터'
-      },
-      {
-        id: 3,
-        userName: '지젤'
-      },
-      {
-        id: 4,
-        userName: '닝닝'
-      },
-      {
-        id: 5,
-        userName: '이미순'
-      },
-      {
-        id: 6,
-        userName: '이현정'
-      },
-      {
-        id: 7,
-        userName: '이혜란'
-      },
-      {
-        id: 8,
-        userName: '허지연'
-      }
-    ],
+    followerList: [],
+    followingList: [],
     hasMoreFollower: true,
     hasMoreFollowing: true
   }),
